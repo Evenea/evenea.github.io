@@ -1,71 +1,122 @@
 .D1{
 	text-align: center;
 }
+.W1{
+	border:0px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom:15px;
+	border-bottom: 2px solid darkblue;
+}
+.W2{
+	border:0px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom:15px;
+	border-bottom: 2px solid darkblue;
+}
+.W3{
+	border:0px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom:15px;
+	border-bottom:2px solid darkblue;
+}
 h1{
 	color: darkblue;
 	text-align: center;
 	font-family: garamond;
-	font-size: 60px;
+	font-size: 30px;
 	margin-bottom: 15px;
 	margin-top: 25px;
 }
-.bild1{
-	border: 4px solid;
-	border-radius:500px;
-	height: 300px;
-	margin-top: 40px;
-}
-.bild2{
-	height:75px;
-	margin-top: -10px;
-	border-radius: 50px;
-}
-.p1{
-	font-size: 26px;
+h2{
+	font-size: 15px;
 	color: darkblue;
 	text-align: center;
 	font-family: garamond;
 	margin-bottom: -10px;
+	margin-top:-20px;
+}
+.bild1{
+	border: 4px solid;
+	border-radius:500px;
+	height: 250px;
+	margin-top: -30px;
+}
+.bild2{
+	height:35px;
+	margin-top: -10px;
+	border-radius: 50px;
+}
+.p1{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	font-family: garamond;
+	margin-bottom: 5px;
+	border-bottom: 2px solid darkblue;
+	border-top: 2px solid darkblue;
+	background-color:darkblue;
 }
 .p2{
-	font-size: 23px;
+	font-size: 16px;
 	color: darkblue;
 	text-align: justify;
 	font-family: garamond;
-	margin-left: 185px;
-	margin-right: 185px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
-.p3{
+.p3{ <--..används för att centrera linkedin-bild..-->
 	font-size: 23px;
 	color: darkblue;
 	text-align: center;
 	font-family: garamond;
 }
 .p4{
-	font-size: 23px;
+	font-size: 14px;
 	color: darkblue;
 	text-align: center;
 	font-family: garamond;
 	text-align: left;
-	margin-left: 130px;
+	margin-left: 95px;
+	margin-top:-5px;
+	margin-right:5px;
 }
 .p5{
 	color:white;
 	font-size: 20px;
 }
-.D2{
-	border:3px solid;
-	margin-left: 185px;
-	margin-right: 185px;
+.p6{
+	font-size: 14px;
+	color: darkblue;
+	text-align: justify;
+	font-family: garamond;
+	margin-left:5px;
+	margin-top:-5px;
+	margin-right:5px;
+}
+.E1{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom:15px;
+	border-bottom: 2px solid darkblue;
+}
+.E2{
+	border:0px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom: 2px solid darkblue;
 }
 footer{
 	text-align: center;
 	background-color: darkblue;
 	color:white;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: garamond;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	border:3px solid black;
 }
 .a1{
 	color:darkblue
@@ -74,28 +125,72 @@ footer{
 }
 .a2{
 	color:white;
-	font-size:20px;
+	font-size:15px;
 	font-family: garamond;
 }
 header{
 	background: darkblue;
+	color:white;
+	font-family: garamond;
+	padding-left: 10px;
+	font-size: 10px;
 }
 .bilder{
-	width:90px;
+	width:80px;
 	float:left;
-	margin-left:20px;
-	margin-top:20px;
+	margin-left:5px;
+	margin-top:0px;
 }
 .PR{
 	text-align: left;
 	color:darkblue;
-	font-size:23px;
+	font-size:18px;
 	font-family: garamond;
-	margin-left: 130px;
+	margin-left: 95px;
+	margin-bottom:5px;
+	margin-top:10px;
 }
 .veolia{
 	float:left;
-	width:90px;
-	margin-top:-20px;
-	margin-left:20px;
+	width:80px;
+	margin-top:-65px;
+	margin-left:5px;
+}
+.SU2{
+	width:80px;
+	float:left;
+	margin-left:5px;
+	margin-top:-5px;
+}
+ul{
+	font-size: 14px;
+	color: darkblue;
+	text-align: center;
+	font-family: garamond;
+	text-align: left;
+	margin-left: -18px;
+	margin-top:-5px;
+	margin-right:5px;
+}
+@media only screen and (min-width: 760px) {
+	.EC{
+	text-align:center;
+	}
+	.E1{
+		margin-right: 20px;
+		margin-left: 20px;
+		width:450px;
+		display:inline-block;
+		background-color: pink;
+			border:3px solid;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom:15px;
+	}
+	.E2{
+		margin-right: 20px;
+		margin-left: 20px;
+		width:450px;
+		display:inline-block;
+	}
 }
