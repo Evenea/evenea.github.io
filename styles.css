@@ -43,6 +43,7 @@ h2{
 	border-radius:500px;
 	height: 250px;
 	margin-top: -30px;
+	margin-bottom:-10px;
 }
 .bild2{
 	height:35px;
@@ -52,7 +53,7 @@ h2{
 .p1{
 	font-size: 25px;
 	color: white;
-	text-align: center;
+	text-align: left;
 	font-family: garamond;
 	margin-bottom: 5px;
 	border-bottom: 2px solid darkblue;
@@ -103,7 +104,6 @@ h2{
 	border-bottom: 2px solid darkblue;
 }
 .E2{
-	border:0px solid;
 	margin-left: 10px;
 	margin-right: 10px;
 	border-bottom: 2px solid darkblue;
@@ -141,7 +141,16 @@ header{
 	margin-left:5px;
 	margin-top:0px;
 }
-.PR{
+.SPR{
+	text-align: left;
+	color:darkblue;
+	font-size:18px;
+	font-family: garamond;
+	margin-left: 95px;
+	margin-bottom:5px;
+	margin-top:10px;
+}
+.WPR{
 	text-align: left;
 	color:darkblue;
 	font-size:18px;
@@ -153,8 +162,8 @@ header{
 .veolia{
 	float:left;
 	width:80px;
-	margin-top:-65px;
-	margin-left:5px;
+	margin-left:-80px;
+	margin-top:90px;
 }
 .SU2{
 	width:80px;
@@ -165,32 +174,79 @@ header{
 ul{
 	font-size: 14px;
 	color: darkblue;
-	text-align: center;
+	text-align: justify;
 	font-family: garamond;
-	text-align: left;
-	margin-left: -18px;
+	margin-left: -15px;
 	margin-top:-5px;
 	margin-right:5px;
 }
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 1024px) {
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 20px;
+	}
+	.P1{
+		text-align:left;
+		padding-left:106px;
+	}
+	.P2{
+		margin-left: 106px;
+		margin-right:106px;
+	}
+	.P4{
+		text-align:justify;
+	}
+	ul{
+		text-align:justify;
+	}
 	.EC{
 	text-align:center;
+	margin-right:106px;
+	margin-left:106px;
 	}
 	.E1{
-		margin-right: 20px;
-		margin-left: 20px;
-		width:450px;
+		width:380px;
 		display:inline-block;
-		background-color: pink;
-			border:3px solid;
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom:15px;
+		border-bottom: 0px solid darkblue;
+		vertical-align: top;
 	}
 	.E2{
-		margin-right: 20px;
-		margin-left: 20px;
-		width:450px;
+		width:380px;
+		text-align: justify;
 		display:inline-block;
+		border-bottom: 0px solid darkblue;
+		vertical-align: top;
+	}
+	.WC{
+		text-align:center;
+		margin-left:106px;
+		margin-right:106px;
+	}
+	.W1{
+		display:inline-block;
+		width:245px;
+		border:0px;
+		vertical-align:top;
+	
+	}
+	.W2{
+		display:inline-block;
+		width:245px;
+		border:0px;
+		vertical-align:top;
+	}
+	.W3{
+		display:inline-block;
+		width:245px;
+		border:0px;
+		vertical-align:top;
+	}
+	.SU2{
+	margin-top:5px;
+	}
+	.bilder{
+		margin-top: 5px;
 	}
 }
