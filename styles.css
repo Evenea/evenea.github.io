@@ -2,8 +2,6 @@
 	text-align: center;
 }
 img{
-	border: 4px solid;
-	border-radius: 500px;
 	height: 300px;
 	margin-top: 40px;
 }
@@ -22,6 +20,7 @@ h1{
 .bild2{
 	height:75px;
 	margin-top: -10px;
+	border-radius: 50px;
 }
 .p1{
 	font-size: 26px;
