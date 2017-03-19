@@ -42,7 +42,7 @@ h2{
 	border: 4px solid;
 	border-radius:500px;
 	height: 250px;
-	margin-top: -30px;
+	margin-top: -125px;
 	margin-bottom:-10px;
 }
 .bild2{
@@ -62,7 +62,7 @@ h2{
 }
 .p2{
 	font-size: 16px;
-	color: darkblue;
+	color: black;
 	text-align: justify;
 	font-family: garamond;
 	margin-left: 10px;
@@ -76,7 +76,7 @@ h2{
 }
 .p4{
 	font-size: 14px;
-	color: darkblue;
+	color: black;
 	text-align: center;
 	font-family: garamond;
 	text-align: left;
@@ -90,7 +90,7 @@ h2{
 }
 .p6{
 	font-size: 14px;
-	color: darkblue;
+	color: black;
 	text-align: justify;
 	font-family: garamond;
 	margin-left:5px;
@@ -165,7 +165,7 @@ header{
 	margin-left:-80px;
 	margin-top:90px;
 }
-.SU2{
+.espresso{
 	width:80px;
 	float:left;
 	margin-left:5px;
@@ -173,12 +173,29 @@ header{
 }
 ul{
 	font-size: 14px;
-	color: darkblue;
+	color: black;
 	text-align: justify;
 	font-family: garamond;
 	margin-left: -15px;
 	margin-top:-5px;
 	margin-right:5px;
+}
+.show-menu {
+transform: translateX(340px);
+}
+.nav.visible {
+display: block;
+}
+.nav {
+width: 340px;
+height: 100%;
+background: #cccccc;
+color: #ffffff;
+position: absolute;
+top: 0;
+left: 0;
+display: none;
+padding: 20px;
 }
 @media only screen and (min-width: 1024px) {
 	h1{
@@ -207,13 +224,13 @@ ul{
 	margin-left:106px;
 	}
 	.E1{
-		width:380px;
+		width:47%;
 		display:inline-block;
 		border-bottom: 0px solid darkblue;
 		vertical-align: top;
 	}
 	.E2{
-		width:380px;
+		width:47%;
 		text-align: justify;
 		display:inline-block;
 		border-bottom: 0px solid darkblue;
@@ -226,20 +243,20 @@ ul{
 	}
 	.W1{
 		display:inline-block;
-		width:245px;
+		width:30%;
 		border:0px;
 		vertical-align:top;
 	
 	}
 	.W2{
 		display:inline-block;
-		width:245px;
+		width:30%;
 		border:0px;
 		vertical-align:top;
 	}
 	.W3{
 		display:inline-block;
-		width:245px;
+		width:31%;
 		border:0px;
 		vertical-align:top;
 	}
@@ -249,4 +266,6 @@ ul{
 	.bilder{
 		margin-top: 5px;
 	}
+	.espresso{
+	margin-top:5px;
 }
