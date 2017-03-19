@@ -128,6 +128,11 @@ footer{
 	font-size:15px;
 	font-family: garamond;
 }
+.a3{
+	color:white;
+	font-size:15px;
+	font-family: garamond;
+}
 header{
 	background: darkblue;
 	color:white;
@@ -209,8 +214,8 @@ padding: 20px;
 		padding-left:106px;
 	}
 	.P2{
-		margin-left: 106px;
-		margin-right:106px;
+		margin-left: 280px;
+		margin-right:280px;
 	}
 	.P4{
 		text-align:justify;
